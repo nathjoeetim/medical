@@ -28,21 +28,31 @@ const About = () => {
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
                 <h2 className="section__title">
-                  We Are Committed To Provide Safe Ride Solutions
+                  Commitment to Ensuring Customer Satisfaction in Delivery
+                  Services
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  our commitment to customer satisfaction drives everything we
+                  do. We understand that reliable and timely delivery is crucial
+                  to your needs, whether it's essential medical supplies,
+                  everyday groceries, or special gifts. Our dedicated team works
+                  tirelessly to ensure every package reaches its destination
+                  safely and on time. We prioritize clear communication and
+                  transparency throughout the delivery process, keeping you
+                  informed at every step. Your trust is paramount to us!
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  We uphold rigorous quality assurance standards to safeguard
+                  your deliveries. From stringent handling protocols to secure
+                  packaging, we ensure the integrity of your items from pickup
+                  to drop-off. Moreover, we are committed to continuous
+                  improvement. Your feedback shapes our services, guiding us as
+                  we strive to enhance efficiency and exceed your delivery
+                  expectations.we are not just delivering packages; we are
+                  delivering peace of mind and exceptional service, ensuring
+                  your satisfaction with every delivery experience.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">

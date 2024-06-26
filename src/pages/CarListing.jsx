@@ -2,34 +2,22 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
-import CarItem from "../components/UI/CarItem";
-import carData from "../assets/data/carData";
+// import CarItem from "../components/UI/CarItem";
+// import carData from "../assets/data/carData";
+import ServicesList from "../components/UI/ServicesList";
 
 const CarListing = () => {
   return (
     <Helmet title="Cars">
-      <CommonSection title="Car Listing" />
-
+      <CommonSection title="Our Services" />
       <section>
         <Container>
           <Row>
-            <Col lg="12">
-              <div className=" d-flex align-items-center gap-3 mb-5">
-                <span className=" d-flex align-items-center gap-2">
-                  <i class="ri-sort-asc"></i> Sort By
-                </span>
-
-                <select>
-                  <option>Select</option>
-                  <option value="low">Low to High</option>
-                  <option value="high">High to Low</option>
-                </select>
-              </div>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="section__subtitle">See our</h6>
+              <h2 className="section__title">Popular Services</h2>
             </Col>
-
-            {carData.map((item) => (
-              <CarItem item={item} key={item.id} />
-            ))}
+            <ServicesList />
           </Row>
         </Container>
       </section>
